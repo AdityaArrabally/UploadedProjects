@@ -1,0 +1,49 @@
+<ehcache>
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="5"
+            timeToLiveSeconds="5"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU" />
+
+    <cache  name="demo"
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="5"
+            timeToLiveSeconds="5"
+            overflowToDisk="false"
+            diskPersistent="false"
+            memoryStoreEvictionPolicy="LRU" />
+</ehcache>
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true"
+	monitoring="autodetect" dynamicConfig="true">
+	<diskStore path="java.io.tmpdir"/>
+	<defaultCache 
+        maxElementsInMemory="1"
+		eternal="true" 
+		overflowToDisk="true"
+        diskPersistent="true"
+		memoryStoreEvictionPolicy="LRU" 
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</defaultCache>
+
+	<cache name="crimeScriptCache" 
+        maxElementsInMemory="1"
+		eternal="true" 
+		overflowToDisk="true"
+        diskPersistent="true"
+		memoryStoreEvictionPolicy="LRU" 
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+</ehcache> -->
